@@ -16,3 +16,10 @@ backend:
 
 frontend:
 - consume this backend service
+
+Checklist:
+- fe consume backend
+- containerize redis
+- deploy to main site
+- double check cleanup url history
+- setup dependabot on github
