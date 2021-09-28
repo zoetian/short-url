@@ -16,7 +16,7 @@ func main() {
 		c.JSON(http.StatusOK, gin.H{"status": "up and running"})
 	})
 
-	r.POST("/shortening", func(c *gin.Context) {
+	r.POST("/shorten", func(c *gin.Context) {
 		handler.ShortenURL(c)
 	})
 
