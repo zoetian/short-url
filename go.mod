@@ -3,7 +3,7 @@ module github.com/zoetian/short-url
 go 1.17
 
 require (
-	github.com/gin-gonic/gin v1.7.4
+	github.com/gin-gonic/gin v1.7.7
 	github.com/go-redis/redis/v8 v8.11.3
 	github.com/mr-tron/base58 v1.2.0
 	github.com/stretchr/testify v1.7.0
